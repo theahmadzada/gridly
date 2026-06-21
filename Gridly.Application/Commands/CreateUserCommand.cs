@@ -1,9 +1,11 @@
 using ErrorOr;
 using FluentValidation;
-using Loot.Application.Dtos;
+
+using Gridly.Application.Dtos;
+
 using MediatR;
 
-namespace Loot.Application.Commands;
+namespace Gridly.Application.Commands;
 
 public record CreateUserCommand : IRequest<ErrorOr<UserDto>>
 {

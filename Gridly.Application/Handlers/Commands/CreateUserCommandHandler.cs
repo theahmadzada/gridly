@@ -2,11 +2,12 @@ using System.Text;
 
 using ErrorOr;
 
-using Loot.Application.Commands;
-using Loot.Application.Dtos;
-using Loot.Domain;
-using Loot.Domain.Entities;
-using Loot.Shared.Events;
+using Gridly.Application.Commands;
+using Gridly.Application.Dtos;
+
+using Gridly.Domain;
+using Gridly.Domain.Entities;
+using Gridly.Shared.Events;
 
 using MassTransit;
 
@@ -15,7 +16,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace Loot.Application.Handlers.Commands;
+namespace Gridly.Application.Handlers.Commands;
 
 public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, ErrorOr<UserDto>>
 {

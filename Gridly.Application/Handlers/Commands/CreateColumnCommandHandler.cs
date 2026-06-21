@@ -1,16 +1,17 @@
 using ErrorOr;
 
-using Loot.Application.Commands;
-using Loot.Application.Dtos;
-using Loot.Domain.Entities;
-using Loot.Domain.Enums;
-using Loot.Infrastructure.DbContext;
+using Gridly.Application.Commands;
+using Gridly.Application.Dtos;
+
+using Gridly.Domain.Entities;
+using Gridly.Domain.Enums;
+using Gridly.Infrastructure.DbContext;
 
 using MediatR;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Loot.Application.Handlers.Commands;
+namespace Gridly.Application.Handlers.Commands;
 
 public class CreateColumnCommandHandler : IRequestHandler<CreateColumnCommand, ErrorOr<ColumnDto>>
 {

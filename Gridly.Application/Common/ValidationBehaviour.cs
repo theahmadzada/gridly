@@ -2,7 +2,7 @@ using ErrorOr;
 using FluentValidation;
 using MediatR;
 
-namespace Loot.Application.Common;
+namespace Gridly.Application.Common;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> 
     where TRequest : IRequest<TResponse>

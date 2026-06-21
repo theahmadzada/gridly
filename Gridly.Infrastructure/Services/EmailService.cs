@@ -1,12 +1,13 @@
-using Loot.Infrastructure.ServiceContracts;
-using Loot.Shared.Settings;
+using Gridly.Infrastructure.ServiceContracts;
+
+using Gridly.Shared.Settings;
 
 using MimeKit;
 using MailKit.Net.Smtp;
 
 using Microsoft.Extensions.Options;
 
-namespace Loot.Infrastructure.Services;
+namespace Gridly.Infrastructure.Services;
 
 public class EmailService : IEmailService
 {

@@ -1,6 +1,6 @@
-using Loot.Domain.Enums;
+using Gridly.Domain.Enums;
 
-namespace Loot.Domain.Entities;
+namespace Gridly.Domain.Entities;
 
 public class BoardMember
 {

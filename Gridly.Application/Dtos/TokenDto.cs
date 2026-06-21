@@ -1,4 +1,4 @@
-namespace Loot.Application.Dtos;
+namespace Gridly.Application.Dtos;
 
 public record TokenDto
 {

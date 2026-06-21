@@ -3,11 +3,11 @@ using Gridly.Application.Handlers;
 using Gridly.Application.Handlers.Commands;
 using Gridly.Application.ServiceContracts;
 using Gridly.Application.Services;
-using Loot.Domain.Entities;
-using Loot.Infrastructure.DbContext;
-using Loot.Infrastructure.ServiceContracts;
-using Loot.Infrastructure.Services;
-using Loot.Shared.Settings;
+using Gridly.Domain.Entities;
+using Gridly.Infrastructure.DbContext;
+using Gridly.Infrastructure.ServiceContracts;
+using Gridly.Infrastructure.Services;
+using Gridly.Shared.Settings;
 
 using MediatR;
 
@@ -17,7 +17,7 @@ using Microsoft.IdentityModel.Tokens;
 
 using Serilog;
 
-namespace Loot.WebApi;
+namespace Gridly.WebApi;
 
 public static class Configuration
 {

@@ -1,11 +1,12 @@
 using FluentValidation;
 using Gridly.Application.Commands;
-using Loot.Infrastructure.Consumers;
-using Loot.Infrastructure.DbContext;
-using Loot.WebApi;
-using Loot.WebApi.Endpoints.Board;
-using Loot.WebApi.Endpoints.User;
-using Loot.WebApi.ExceptionHandler;
+using Gridly.Infrastructure.Consumers;
+using Gridly.Infrastructure.DbContext;
+
+using Gridly.WebApi;
+using Gridly.WebApi.Endpoints.Board;
+using Gridly.WebApi.Endpoints.User;
+using Gridly.WebApi.ExceptionHandler;
 using Scalar.AspNetCore;
 
 using Serilog;

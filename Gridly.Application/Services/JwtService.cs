@@ -3,15 +3,15 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-using Loot.Application.Dtos;
-using Loot.Application.ServiceContracts;
-using Loot.Shared.Settings;
+using Gridly.Application.Dtos;
+using Gridly.Application.ServiceContracts;
+using Gridly.Shared.Settings;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Loot.Application.Services;
+namespace Gridly.Application.Services;
 
 public class JwtService : IJwtService
 {

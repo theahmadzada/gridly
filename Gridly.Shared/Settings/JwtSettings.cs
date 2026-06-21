@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Loot.Shared.Settings;
+namespace Gridly.Shared.Settings;
 
 public record JwtSettings
 {

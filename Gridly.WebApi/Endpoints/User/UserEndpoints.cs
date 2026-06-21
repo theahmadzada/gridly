@@ -2,7 +2,7 @@ using Gridly.Application.Commands;
 
 using MediatR;
 
-namespace Loot.WebApi.Endpoints.User;
+namespace Gridly.WebApi.Endpoints.User;
 
 public static class UserEndpoints
 {

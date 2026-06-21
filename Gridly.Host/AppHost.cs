@@ -16,7 +16,7 @@ var migrations = builder.AddProject<Projects.MigrationService>("migrations")
     .WithReference(psql)
     .WaitFor(psql);
 
-builder.AddProject<Projects.Loot_WebApi>("webapi")
+builder.AddProject<Projects.Gridly_WebApi>("webapi")
     .WithReference(psql)
     .WaitFor(psql)
     .WithReference(rabbitmq)

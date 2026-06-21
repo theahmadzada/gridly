@@ -1,4 +1,4 @@
-using Loot.Infrastructure.DbContext;
+using Gridly.Infrastructure.DbContext;
 
 using MigrationService;
 

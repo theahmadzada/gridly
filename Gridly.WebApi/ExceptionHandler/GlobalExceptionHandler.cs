@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Loot.WebApi.ExceptionHandler;
+namespace Gridly.WebApi.ExceptionHandler;
 
 public class GlobalExceptionHandler : IExceptionHandler
 {

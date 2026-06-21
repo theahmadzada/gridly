@@ -4,7 +4,7 @@ using FluentValidation;
 
 using MediatR;
 
-namespace Loot.Application.Commands;
+namespace Gridly.Application.Commands;
 
 public record ConfirmEmailCommand : IRequest<ErrorOr<Guid>>
 {

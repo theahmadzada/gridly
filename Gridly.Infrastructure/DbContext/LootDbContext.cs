@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Loot.Infrastructure.DbContext;
+namespace Gridly.Infrastructure.DbContext;
 
 public class LootDbContext(DbContextOptions<LootDbContext> options) : IdentityDbContext<AppUser, AppRole, Guid>(options)
 {

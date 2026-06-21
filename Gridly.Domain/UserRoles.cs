@@ -1,4 +1,4 @@
-namespace Loot.Domain;
+namespace Gridly.Domain;
 
 public static class UserRoles
 {

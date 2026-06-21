@@ -3,16 +3,17 @@ using System.Security.Claims;
 
 using ErrorOr;
 
-using Loot.Application.Commands;
-using Loot.Application.Dtos;
-using Loot.Application.ServiceContracts;
-using Loot.Domain.Entities;
+using Gridly.Application.Commands;
+using Gridly.Application.Dtos;
+using Gridly.Application.ServiceContracts;
+
+using Gridly.Domain.Entities;
 
 using MediatR;
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Loot.Application.Handlers.Commands;
+namespace Gridly.Application.Handlers.Commands;
 
 public class LogInUserCommandHandler : IRequestHandler<LogInUserCommand, ErrorOr<LogInDto>>
 {

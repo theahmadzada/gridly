@@ -2,7 +2,7 @@ using Gridly.Application.Commands;
 
 using MediatR;
 
-namespace Loot.WebApi.Endpoints.Board;
+namespace Gridly.WebApi.Endpoints.Board;
 
 public static class BoardEndpoints
 {

@@ -1,4 +1,4 @@
-namespace Loot.Domain.Enums;
+namespace Gridly.Domain.Enums;
 
 public enum BoardRole
 {

@@ -1,10 +1,10 @@
 <Solution>
-  <Project Path="Loot.Application/Loot.Application.csproj" />
-  <Project Path="Loot.Domain/Loot.Domain.csproj" />
-  <Project Path="Loot.Host/Loot.Host.csproj" />
-  <Project Path="Loot.Infrastructure/Loot.Infrastructure.csproj" />
-  <Project Path="Loot.Shared/Loot.Shared.csproj" />
-  <Project Path="Loot.WebApi/Loot.WebApi.csproj" />
+  <Project Path="Gridly.Application/Gridly.Application.csproj" />
+  <Project Path="Gridly.Domain/Gridly.Domain.csproj" />
+  <Project Path="Gridly.Host/Gridly.Host.csproj" />
+  <Project Path="Gridly.Infrastructure/Gridly.Infrastructure.csproj" />
+  <Project Path="Gridly.Shared/Gridly.Shared.csproj" />
+  <Project Path="Gridly.WebApi/Gridly.WebApi.csproj" />
   <Project Path="MigrationService/MigrationService.csproj" />
   <Project Path="ServiceDefaults/ServiceDefaults.csproj" />
 </Solution>

@@ -1,8 +1,8 @@
 using System.Security.Claims;
 
-using Loot.Application.Dtos;
+using Gridly.Application.Dtos;
 
-namespace Loot.Application.ServiceContracts;
+namespace Gridly.Application.ServiceContracts;
 
 public interface IJwtService
 {

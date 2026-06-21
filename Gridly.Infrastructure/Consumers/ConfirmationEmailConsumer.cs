@@ -1,10 +1,11 @@
 using System.Net;
 
-using Loot.Infrastructure.ServiceContracts;
-using Loot.Shared.Events;
+using Gridly.Infrastructure.ServiceContracts;
+
+using Gridly.Shared.Events;
 using MassTransit;
 
-namespace Loot.Infrastructure.Consumers;
+namespace Gridly.Infrastructure.Consumers;
 
 public class ConfirmationEmailConsumer : IConsumer<UserCreatedEvent>
 { 

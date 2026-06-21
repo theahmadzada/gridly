@@ -7,12 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="ErrorOr" Version="2.0.1" />
+      <PackageReference Include="ErrorOr" Version="2.1.1" />
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
       <PackageReference Include="MediatR" Version="14.1.0" />
-      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="10.0.6" />
-      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.6" />
-      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
+      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="10.0.9" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.9" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -21,8 +21,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Loot.Domain\Loot.Domain.csproj" />
-      <ProjectReference Include="..\Loot.Infrastructure\Loot.Infrastructure.csproj" />
+      <ProjectReference Include="..\Gridly.Domain\Gridly.Domain.csproj" />
+      <ProjectReference Include="..\Gridly.Infrastructure\Gridly.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

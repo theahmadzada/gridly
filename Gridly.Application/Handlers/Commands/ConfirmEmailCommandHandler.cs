@@ -2,15 +2,16 @@ using System.Text;
 
 using ErrorOr;
 
-using Loot.Application.Commands;
-using Loot.Domain.Entities;
+using Gridly.Application.Commands;
+
+using Gridly.Domain.Entities;
 
 using MediatR;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace Loot.Application.Handlers.Commands;
+namespace Gridly.Application.Handlers.Commands;
 
 public class ConfirmEmailCommandHandler : IRequestHandler<ConfirmEmailCommand, ErrorOr<Guid>>
 {

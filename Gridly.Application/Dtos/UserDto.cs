@@ -1,6 +1,6 @@
-using Loot.Domain.Entities;
+using Gridly.Domain.Entities;
 
-namespace Loot.Application.Dtos;
+namespace Gridly.Application.Dtos;
 
 public record UserDto
 {

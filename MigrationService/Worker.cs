@@ -1,8 +1,8 @@
 using System.Diagnostics;
 
-using Loot.Domain;
-using Loot.Domain.Entities;
-using Loot.Infrastructure.DbContext;
+using Gridly.Domain;
+using Gridly.Domain.Entities;
+using Gridly.Infrastructure.DbContext;
 
 using Microsoft.EntityFrameworkCore;
 

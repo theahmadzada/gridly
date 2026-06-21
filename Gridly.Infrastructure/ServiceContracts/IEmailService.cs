@@ -1,4 +1,4 @@
-namespace Loot.Infrastructure.ServiceContracts;
+namespace Gridly.Infrastructure.ServiceContracts;
 
 public interface IEmailService
 {

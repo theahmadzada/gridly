@@ -1,4 +1,4 @@
-namespace Loot.Domain.Entities;
+namespace Gridly.Domain.Entities;
 
 public class TaskItem
 {

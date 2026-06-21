@@ -1,4 +1,4 @@
-﻿namespace Loot.Shared.Events;
+﻿namespace Gridly.Shared.Events;
 
 public record UserCreatedEvent
 {
