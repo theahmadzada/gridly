@@ -1,4 +1,4 @@
-using Loot.Domain.Entities;
+using Gridly.Domain.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;

@@ -1,8 +1,8 @@
-using Loot.Application.Common;
-using Loot.Application.Handlers;
-using Loot.Application.Handlers.Commands;
-using Loot.Application.ServiceContracts;
-using Loot.Application.Services;
+using Gridly.Application.Common;
+using Gridly.Application.Handlers;
+using Gridly.Application.Handlers.Commands;
+using Gridly.Application.ServiceContracts;
+using Gridly.Application.Services;
 using Loot.Domain.Entities;
 using Loot.Infrastructure.DbContext;
 using Loot.Infrastructure.ServiceContracts;

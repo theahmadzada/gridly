@@ -1,5 +1,5 @@
 using FluentValidation;
-using Loot.Application.Commands;
+using Gridly.Application.Commands;
 using Loot.Infrastructure.Consumers;
 using Loot.Infrastructure.DbContext;
 using Loot.WebApi;

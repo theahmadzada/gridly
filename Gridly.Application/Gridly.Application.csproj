@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ErrorOr" Version="2.0.1" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+      <PackageReference Include="MediatR" Version="14.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="10.0.6" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.6" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Handlers\Queries\" />
+      <Folder Include="Queries\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Loot.Domain\Loot.Domain.csproj" />
+      <ProjectReference Include="..\Loot.Infrastructure\Loot.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="ErrorOr">
+        <HintPath>..\..\..\.nuget\packages\erroror\2.0.1\lib\net6.0\ErrorOr.dll</HintPath>
+      </Reference>
+      <Reference Include="MediatR">
+        <HintPath>..\..\..\.nuget\packages\mediatr\14.1.0\lib\net10.0\MediatR.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

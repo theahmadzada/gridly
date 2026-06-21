@@ -1,4 +1,4 @@
-using Loot.Application.Commands;
+using Gridly.Application.Commands;
 
 using MediatR;
 
